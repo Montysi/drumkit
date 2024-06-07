@@ -1,0 +1,8 @@
+.centreText {
+    display: flex;
+    justify-content: center;
+}
+
+.soundBox {
+    border: 2px solid black;
+}
