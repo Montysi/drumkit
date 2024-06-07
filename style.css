@@ -1,13 +1,37 @@
+body { 
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px
+}
+
+* {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
 .centreText {
     display: flex;
     justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid;
+    border-image:   linear-gradient(to right, 
+    rgba(157, 0, 255, 0.6) 25%, 
+    rgba(255, 0, 0, 0.6) 25%, 
+    rgba(0, 255, 34, 0.6) 50%,
+    rgba(38, 0, 255, 0.6) 75%, 
+    rgba(255, 174, 0, 0.6) 75%) 5;
 }
 
 .soundBox {
-    border: 2px solid black;
-
-    display: flex;
-    flex-direction: row;
+    border: 4px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: rgb(183, 0, 255);
 
 }
 
@@ -15,5 +39,115 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    position: relative;
+    top: 20px;
     
 }
+
+.button {
+            width: 100px;
+            height: 100px;
+            background-color: #000000;
+            color: rgb(255, 255, 255);
+            font-size: 40px;
+            border: none;
+            border-radius: 5px;
+            transition: transform 0.1s, box-shadow 0.1s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            
+        }
+
+
+#hihat {
+    box-shadow: rgba(157, 0, 255, 0.6) 0 0 4px 4px;
+    color: rgba(157, 0, 255, 0.6);
+        }
+
+        #hihat:active, #hihat.pressed {
+            transform: scale(0.95);
+             box-shadow: rgba(157, 0, 255, 0.6) 0 0 45px 33px;
+        }
+
+#clap {
+    box-shadow: rgba(255, 0, 0, 0.6) 0 0 4px 4px;
+    color: rgba(255, 0, 0, 0.6)
+        }
+
+         #clap:active, #clap.pressed {
+            transform: scale(0.95);
+             box-shadow: rgba(255, 0, 0, 0.6) 0 0 45px 33px;
+        }
+
+#boom {
+    box-shadow: rgba(0, 255, 34, 0.6) 0 0 4px 4px;
+    color: rgba(0, 255, 34, 0.6)
+        }
+
+        #boom:active, #boom.pressed {
+            transform: scale(0.95);
+             box-shadow: rgba(0, 255, 34, 0.6) 0 0 45px 33px;
+        }
+        
+
+#kick {
+    box-shadow: rgba(38, 0, 255, 0.6) 0 0 4px 4px;
+    color: rgba(38, 0, 255, 0.6)
+        }
+
+         #kick:active, #kick.pressed {
+            transform: scale(0.95);
+             box-shadow: rgba(38, 0, 255, 0.6) 0 0 45px 33px;
+        }
+
+#openhat {
+    box-shadow: rgba(255, 174, 0, 0.6) 0 0 4px 4px;
+    color: rgba(255, 174, 0, 0.6)
+        }
+
+         #openhat:active, #openhat.pressed {
+            transform: scale(0.95);
+             box-shadow: rgba(255, 174, 0, 0.6) 0 0 45px 33px;
+        }
+
+#ride {
+    box-shadow: rgba(38, 0, 255, 0.6) 0 0 4px 4px;
+    color: rgba(38, 0, 255, 0.6)
+        }
+
+         #ride:active, #ride.pressed {
+            transform: scale(0.95);
+             box-shadow: rgba(38, 0, 255, 0.6) 0 0 45px 33px;
+        }
+
+#snare {
+    box-shadow: rgba(0, 255, 34, 0.6) 0 0 4px 4px;
+    color: rgba(0, 255, 34, 0.6)
+        }
+
+         #snare:active, #snare.pressed {
+            transform: scale(0.95);
+             box-shadow: rgba(0, 255, 34, 0.6) 0 0 45px 33px;
+        }
+
+#tink {
+    box-shadow: rgba(255, 0, 0, 0.6) 0 0 4px 4px;
+    color: rgba(255, 0, 0, 0.6)
+        }
+
+         #tink:active, #tink.pressed {
+            transform: scale(0.95);
+             box-shadow: rgba(255, 0, 0, 0.6) 0 0 45px 33px;
+        }
+
+#tom {
+    box-shadow: rgba(157, 0, 255, 0.6) 0 0 4px 4px;
+    color: rgba(157, 0, 255, 0.6)
+        }
+
+         #tom:active, #tom.pressed {
+            transform: scale(0.95);
+             box-shadow: rgba(157, 0, 255, 0.6) 0 0 45px 33px;
+        }
