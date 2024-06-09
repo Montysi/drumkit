@@ -13,6 +13,10 @@ h1 {
     color: white;
 }
 
+h2 {
+    color: white;
+}
+
 .centreText {
     display: flex;
     justify-content: center;
@@ -151,3 +155,12 @@ h1 {
             transform: scale(0.95);
              box-shadow: rgba(157, 0, 255, 0.6) 0 0 45px 33px;
         }
+
+.labelContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10px;
+    background-color: transparent;
+    }
